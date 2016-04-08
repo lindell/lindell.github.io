@@ -66,12 +66,17 @@ header {
   margin-top:-3em;
 
   border-radius:10em;
-  height:6em;
+  height:0em;
   width:auto;
 
   border: 2px solid #dddddd;
-  transition : all 0.5s linear;
+  cursor:pointer;
 
+  transition: height .6s, margin-top .6s, border 0.3s;
+}
+
+.pic.loaded {
+  height: 6em;
 }
 
 
@@ -83,14 +88,6 @@ header {
   to {
     height: 6em;
   }
-}
-
-.pic {
-  cursor:pointer;
-
-  animation: intro .6s;
-  -webkit-transition: height .7s, margin-top .6s, border 0.3s; /* Safari */
-  transition: height .6s, margin-top .6s, border 0.3s;
 }
 
 .pic:hover{
@@ -437,6 +434,10 @@ header p {
     width:4.2em;
 }
 
+.pic.loaded {
+  height: 4.2em;
+}
+
 .profiles {
   display:none;
 }
@@ -548,7 +549,7 @@ div.content-text.skills-listing > ul > li:first-child {
 			    <header>
 			      <div class="header-content">
 			        <div class="header-pic">
-			          <img src="./images/me.jpg" class="pic" alt="Johan Lindell"/>
+			          <img src="./images/me.jpg" class="pic" alt="Johan Lindell" onload="var pic = this; setTimeout(function(){pic.className+=' loaded';},100);"/>
 			        </div>
 			        <div class="header-text">
 			          <p>
