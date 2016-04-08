@@ -20,10 +20,6 @@
         "network": "Facebook",
         "username": "Johan Lindell",
         "url": "https://www.facebook.com/lindell92"
-      },
-      {
-        "network": "LinkedIn",
-        "url": "https://www.linkedin.com/in/johan-lindell-56a47a52"
       }
     ]
   },
@@ -49,12 +45,12 @@
       "website": "http://www.orebro.se/4645.html",
       "startDate": "2010-01-01",
       "endDate": "2010-06-01",
-      "summary": "The work at KomTek involved creating a course for young children to make them interested in programming. The course was organized so that the children got a basic understanding of programming while still having fun in the process."
+      "summary": "I and a friend did teached children and in programing at KomTek (munipical technical school). The course was organized so that the children got a basic understanding of programming while still having fun in the process."
     }
   ],
   "volunteer": [{
     "organization": "VilleValla Pub",
-    "position": "Bartender and Kitchen",
+    "position": "Bartending and Kitchen Work",
     "website": "https://www.villevallapub.se/",
     "startDate": "2015-02-01",
     "endDate": "2016-04-01",
@@ -93,10 +89,9 @@
         "Java",
         "C#",
         "Javascript (ECMAScript)",
-        "C/C++",
         "SQL",
+        "C/C++",
         "LISP",
-        "Ada",
         "and more..."
       ]
     }
