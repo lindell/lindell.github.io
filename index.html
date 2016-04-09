@@ -2,24 +2,32 @@
 <!doctype html>
 <html>
 	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+		<title>Johan Lindell's Resume</title>
+		<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 
-	<title>Johan Lindell's Resume</title>
-	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-	<!-- TODO: Just use the icons needed -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-	<style>
-		body, html {
+		<style>
+			body, html {
   padding-top:2.5em;
   margin:0;
   background-color:#fafafa;
   font-size: 13pt;
   font-family: "Open Sans";
+}
+
+h2{
+  font-weight: normal;
+  margin: 0.5em;
+  margin-bottom: 0.2em;
+}
+
+h3{
+  display:none;
 }
 
 .note {
@@ -54,7 +62,7 @@ header {
   width:100%;
   vertical-align: middle;
   text-align: center;
-
+  font-family: "Merriweather";
 }
 
 .header-content {
@@ -96,15 +104,8 @@ header {
   border: 4px solid #dddddd;
 }
 
-.header-text {
-  margin-top:0.5em;
-  margin-left:1em;
-  font-size:1.2em;
-}
-
 header p {
   text-align:center;
-  font-family: "Merriweather";
 
   margin:0;
 
@@ -117,8 +118,7 @@ header p {
 
 .subtitle {
   font-family: "Merriweather";
-  padding-top:.3em;
-  font-size:0.55em;
+  font-size:0.7em;
   font-weight:500;
   color: #424242;
 }
@@ -309,10 +309,6 @@ div.content-text.skills-listing > p {
   margin-bottom: 0.45em;
 }
 
-div.content-text.skills-listing > p > {
-  color:#212121;
-}
-
 .no-nl{
   display: inline-block;
 }
@@ -346,10 +342,10 @@ a{
   }
 }
 
-	</style>
+		</style>
 
-	<style media="screen">
-		@media(max-width:750px) {
+		<style media="screen">
+			@media(max-width:750px) {
   .paper {
     width:96%;
   }
@@ -392,9 +388,9 @@ a{
   }
 }
 
-	</style>
+		</style>
 
-	<style media="print">
+		<style media="print">
 
 body, html {
   background-color: white;
@@ -537,11 +533,9 @@ div.content-text.skills-listing > ul > li:first-child {
   padding-top: 0;
 }
 
-	</style>
-
+		</style>
 	</head>
 	<body>
-
 		<div class="resume-wrapper">
 		  <article class="paper">
 			    <header>
@@ -550,17 +544,15 @@ div.content-text.skills-listing > ul > li:first-child {
 			          <img src="./images/me.jpg" class="pic" alt="Johan Lindell" onload="var pic = this; setTimeout(function(){pic.className+=' loaded';},100);"/>
 			        </div>
 			        <div class="header-text">
-			          <p>
-			            Johan Lindell
-			          </p>
-			          <p class="subtitle"></p>
+			          <h2>Johan Lindell</h2>
+			          <p class="subtitle">Developer</p>
 			        </div>
 			      </div>
 			    </header>
 			    <div class="content-wrapper">
-					<div>
 			      <!-- CONTACT -->
 			      <section class="content">
+							<h3>Contact</h3><!-- Invisible, for SEO / HTML validity -->
 			        <div class="row">
 			          <div class="content-cat">
 			           Contact
@@ -586,6 +578,7 @@ div.content-text.skills-listing > ul > li:first-child {
 
 			      <!-- LOCATION -->
 					      <section class="content">
+									<h3>Location</h3><!-- Invisible, for SEO / HTML validity -->
 					        <div class="row">
 					          <div class="content-cat">
 					           Location
@@ -611,6 +604,7 @@ div.content-text.skills-listing > ul > li:first-child {
 
 						<!-- LANGUAGE -->
 			      <section class="content">
+							<h3>Languages</h3><!-- Invisible, for SEO / HTML validity -->
 			        <div class="row">
 			          <div class="content-cat">
 			           Languages
@@ -638,6 +632,7 @@ div.content-text.skills-listing > ul > li:first-child {
 
 			      <!-- PROFILES for website-->
 				      <section class="content profiles">
+								<h3>Profiles</h3><!-- Invisible, for SEO / HTML validity -->
 				        <div class="row">
 				          <div class="content-cat">
 				           Profiles
@@ -662,6 +657,7 @@ div.content-text.skills-listing > ul > li:first-child {
 				      </section>
 						<!-- PROFILES for print -->
 							<section class="content profiles-print">
+								<h3>Profiles</h3><!-- Invisible, for SEO / HTML validity -->
 								<div class="row">
 									<div class="content-cat">
 									 Profiles
@@ -680,6 +676,7 @@ div.content-text.skills-listing > ul > li:first-child {
 							</section>
 
 							<section class="content summary">
+								<h3>About me</h3><!-- Invisible, for SEO / HTML validity -->
 								<div class="row small-fullwidth-row">
 									<div class="content-cat">
 									 About Me
@@ -693,6 +690,7 @@ div.content-text.skills-listing > ul > li:first-child {
 							</section>
 
 								<section class="content">
+							<h3>Work Experience</h3><!-- Invisible, for SEO / HTML validity -->
 							<div class="row small-fullwidth-row">
 								<div class="content-cat big-text">
 											Work	Experience
@@ -713,6 +711,7 @@ div.content-text.skills-listing > ul > li:first-child {
 							</div>
 						</section>
 								<section class="content work-content">
+							<h3>Work Experience</h3><!-- Invisible, for SEO / HTML validity -->
 							<div class="row small-fullwidth-row">
 								<div class="content-cat big-text">
 
@@ -732,6 +731,7 @@ div.content-text.skills-listing > ul > li:first-child {
 							</div>
 						</section>
 								<section class="content work-content">
+							<h3>Work Experience</h3><!-- Invisible, for SEO / HTML validity -->
 							<div class="row small-fullwidth-row">
 								<div class="content-cat big-text">
 
@@ -752,6 +752,7 @@ div.content-text.skills-listing > ul > li:first-child {
 						</section>
 
 								<section class="content">
+							<h3>Volunteer work</h3><!-- Invisible, for SEO / HTML validity -->
 			        <div class="row small-fullwidth-row">
 			          <div class="content-cat big-text">
 											Volunteer work
@@ -761,7 +762,7 @@ div.content-text.skills-listing > ul > li:first-child {
 			          </div>
 			          <div class="content-text work-listing education-listing">
 					            <p class="first-listing small-center">
-													<strong>Bartending and Kitchen Work</strong> <span class="no-nl">at <strong><a href="https://www.villevallapub.se/">VilleValla Pub</a></span></strong>
+													<strong>Bartending and Kitchen Work</strong> <span class="no-nl">at <strong><a href="https://www.villevallapub.se/">VilleValla Pub</a></strong></span>
 					            </p>
 
 											<p>VilleValla is a student pub open for students at Linköping University. At VilleValla I worked in the bar as well as managing the kitchen. The most valuable lesson I learned while working at VilleValla was how to continue being engaged with the customers while still being under stress.</p>
@@ -773,6 +774,7 @@ div.content-text.skills-listing > ul > li:first-child {
 			      </section>
 
 								<section class="content">
+							<h3>Education</h3><!-- Invisible, for SEO / HTML validity -->
 				        <div class="row">
 				          <div class="content-cat big-text">
 
@@ -793,6 +795,7 @@ div.content-text.skills-listing > ul > li:first-child {
 				        </div>
 				      </section>
 								<section class="content education-content">
+							<h3>Education</h3><!-- Invisible, for SEO / HTML validity -->
 				        <div class="row">
 				          <div class="content-cat big-text">
 
@@ -801,7 +804,7 @@ div.content-text.skills-listing > ul > li:first-child {
 
 				          </div>
 				          <div class="content-text work-listing education-listing">
-						            <p class="heading">Tullängskolan</p>
+						            <p class="heading">Tullängsskolan</p>
 
 			            		<p class="highlight">
 												High School:
@@ -814,6 +817,7 @@ div.content-text.skills-listing > ul > li:first-child {
 
 
 			      <section class="content">
+							<h3>Skills</h3><!-- Invisible, for SEO / HTML validity -->
 			        <div class="row">
 			          <div class="content-cat">
 			            Skills
@@ -845,11 +849,8 @@ div.content-text.skills-listing > ul > li:first-child {
 			        </div>
 			      </section>
 
-				</div>
-		  </div>
-
+		  	</div>
 		  </article>
-
 		</div>
 	</body>
 </html>
