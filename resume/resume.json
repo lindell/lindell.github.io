@@ -18,9 +18,9 @@
         "url": "https://github.com/lindell"
       },
       {
-        "network": "Facebook",
+        "network": "LinkedIn",
         "username": "Johan Lindell",
-        "url": "https://www.facebook.com/lindell92"
+        "url": "http://bit.ly/2fmpoA8"
       }
     ]
   },
@@ -57,6 +57,15 @@
     "endDate": "2016-04-01",
     "summary": "VilleValla is a student pub open for students at Linköping University. At VilleValla I worked in the bar as well as managing the kitchen. The most valuable lesson I learned while working at VilleValla was how to continue being engaged with the customers while still being under stress."
   }],
+  "opensource": [
+    {
+      "name": "JsBarcode",
+      "role": "Creator and main contributor",
+      "startDate": "2014-06-01",
+      "website": "https://github.com/lindell/JsBarcode",
+      "summary": "JsBarcode is a barcode generation library written in JavaScript. I'm the creator and main developer of the project. It is currently the most popular barcode generation library (all languages) on GitHub and is used by everything from Turkish bookshops to the Swedish postal service (PostNord)."
+    }
+  ],
   "education": [
     {
       "institution": "Linköping University",
@@ -92,6 +101,7 @@
         "C#",
         "Javascript (ECMAScript)",
         "SQL",
+        "Python",
         "PHP",
         "C/C++",
         "LISP",
