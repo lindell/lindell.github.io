@@ -46,7 +46,7 @@
       "website": "http://www.orebro.se/4645.html",
       "startDate": "2010-01-01",
       "endDate": "2010-06-01",
-      "summary": "I and a friend did teached children in programing at KomTek (munipical technical school). The course was organized so that the children received a basic understanding of programming while still having fun in the process. It was fun and instructive to see the children's expression of epiphany when they figured out new things. The same epiphany I experienced when I started programming."
+      "summary": "I created and taught a programming course for children with another person at KomTek (munipical technical school). The course was organized so that the children received a basic understanding of programming while still having fun in the process. It was fun and instructive to see the children's expression of epiphany when they figured out new things. The same epiphany I experienced when I started programming."
     }
   ],
   "volunteer": [{
@@ -69,10 +69,18 @@
   "education": [
     {
       "institution": "Linköping University",
-      "area": "Computer Science",
+      "area": "Programming and Algorithms",
       "studyType": "Master",
-      "startDate": "2011-07-15",
+      "startDate": "2014-08-15",
       "endDate": "2016-12-31",
+      "courses": []
+    },
+    {
+      "institution": "Linköping University",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2011-08-15",
+      "endDate": "2014-06-15",
       "courses": []
     },
     {
