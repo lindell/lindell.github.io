@@ -137,6 +137,8 @@ header p {
   border-right: 1px solid #dddddd;
   border-bottom: 3px solid #dddddd;
   border-radius: 3px;
+
+  text-align: center;
 }
 
 /* Content Part */
@@ -146,6 +148,8 @@ header p {
   padding-left: 7.25%;
   transition: .3s;
   padding-bottom: 20px;
+
+  text-align: left;
 }
 
 .content {
@@ -339,26 +343,13 @@ a{
 		</style>
 
 		<style media="screen">
-			.header-pic{
-  text-align: center;
-}
-
-.paper{
-  text-align: center;
-}
-
-.content-wrapper{
-  text-align: left;
-}
-
-@media(max-width:795px) {
+			@media(max-width:795px) {
   .paper {
     width:96%;
   }
 
   .pic{
     cursor: auto;
-
   }
 
   .content-cat{
@@ -445,12 +436,10 @@ header p {
 }
 
 .pic{
-    height:4.2em;
-    width:4.2em;
-}
+  height:4.2em;
+  width:4.2em;
 
-.pic.loaded {
-  height: 4.2em;
+  transform: translate(-8em, 1.9em);
 }
 
 .profiles {
@@ -559,7 +548,7 @@ div.content-text.skills-listing > ul > li:first-child {
 	<body>
 		<div class="resume-wrapper">
 			<article class="paper">
-				<img src="./images/me.jpg" class="pic" alt="Johan Lindell" onload="var pic = this; setTimeout(function(){pic.className+=' loaded';},100);"/>
+				<img src="./images/me.jpg" class="pic" alt="Johan Lindell" />
 					<div class="content-wrapper">
 						<header>
 							<div class="header-content">
