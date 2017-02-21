@@ -71,23 +71,13 @@ header {
 }
 
 .pic {
-  margin: 0 auto;
   margin-top:-3em;
 
   border-radius:10em;
-  height:0em;
-  width:auto;
 
   border: 2px solid #dddddd;
   cursor:pointer;
-
-  transition: height .6s, margin-top .6s, border 0.3s;
 }
-
-.pic.loaded {
-  height: 6em;
-}
-
 
 @keyframes intro {
   from {
@@ -99,10 +89,17 @@ header {
   }
 }
 
-.pic:hover, .pic:active{
-  height: 14em;
-  margin-top: -5em;
-  border: 4px solid #dddddd;
+.pic{
+  height: 6em;
+  transition: .3s;
+}
+
+.pic:hover{
+  transform: translateY(20px) scale(2);
+}
+
+.pic:hover ~ .content-wrapper{
+  transform: translateY(75px);
 }
 
 header p {
@@ -139,13 +136,16 @@ header p {
   border-left: 1px solid #dddddd;
   border-right: 1px solid #dddddd;
   border-bottom: 3px solid #dddddd;
-  border-radius:3px;
+  border-radius: 3px;
 }
 
 /* Content Part */
 
 .content-wrapper {
-  padding-right:7.25%;
+  padding-right: 7.25%;
+  padding-left: 7.25%;
+  transition: .3s;
+  padding-bottom: 20px;
 }
 
 .content {
@@ -189,8 +189,7 @@ body > div > article > div > section:last-child {
 
   font-family: "Merriweather";
 
-  padding-left:6.66%;
-  width:30%;
+  width:25%;
 }
 
 .content-cat p {
@@ -340,7 +339,19 @@ a{
 		</style>
 
 		<style media="screen">
-			@media(max-width:795px) {
+			.header-pic{
+  text-align: center;
+}
+
+.paper{
+  text-align: center;
+}
+
+.content-wrapper{
+  text-align: left;
+}
+
+@media(max-width:795px) {
   .paper {
     width:96%;
   }
@@ -355,6 +366,7 @@ a{
   }
 
   .content-wrapper{
+    padding-left: 1%;
     padding-right: 1%;
   }
 
@@ -381,6 +393,10 @@ a{
 
   .work-listing .first-listing{
     margin-top: 0.45em;
+  }
+
+  .top-content h3{
+    width: 100px;
   }
 }
 
@@ -537,120 +553,118 @@ div.content-text.skills-listing > ul > li:first-child {
 	</head>
 	<body>
 		<div class="resume-wrapper">
-		  <article class="paper">
-			    <header>
-			      <div class="header-content">
-			        <div class="header-pic">
-			          <img src="./images/me.jpg" class="pic" alt="Johan Lindell" onload="var pic = this; setTimeout(function(){pic.className+=' loaded';},100);"/>
-			        </div>
-			        <div class="header-text">
-			          <h2>Johan Lindell</h2>
-			          <p class="subtitle">Developer</p>
-			        </div>
-			      </div>
-			    </header>
-			    <div class="content-wrapper">
-			      <!-- CONTACT -->
-			      <section class="content">
-			        <div class="row">
-			          <div class="content-cat">
-			           <h3>Contact</h3>
-			          </div>
-			          <div class="content-text">
-				            <ul>
-				              <li>Email</li>
-				              <li><a href="mailto:johan@lindell.me">johan@lindell.me</a></li>
-				            </ul>
+			<article class="paper">
+				<img src="./images/me.jpg" class="pic" alt="Johan Lindell" onload="var pic = this; setTimeout(function(){pic.className+=' loaded';},100);"/>
+					<div class="content-wrapper">
+						<header>
+							<div class="header-content">
+								<div class="header-text">
+									<h2>Johan Lindell</h2>
+									<p class="subtitle">Developer</p>
+								</div>
+							</div>
+						</header>
+						<!-- CONTACT -->
+						<section class="content top-content">
+							<div class="row">
+								<div class="content-cat">
+								 <h3>Contact</h3>
+								</div>
+								<div class="content-text">
+										<ul>
+											<li>Email</li>
+											<li><a href="mailto:johan@lindell.me">johan@lindell.me</a></li>
+										</ul>
 
-				            <ul>
-				              <li>Phone</li>
-				              <li>(+46) 073-988 03 28</li>
-				            </ul>
+										<ul>
+											<li>Phone</li>
+											<li>(+46) 073-988 03 28</li>
+										</ul>
 
 										<ul>
 											<li>Website</li>
 											<li><a href="http://lindell.me">http://lindell.me</a></li>
 										</ul>
-			          </div>
-			        </div>
-			      </section>
+								</div>
+							</div>
+						</section>
 
-			      <!-- LOCATION -->
-					      <section class="content">
-					        <div class="row">
-					          <div class="content-cat">
-					           <h3>Location</h3>
-					          </div>
-					          <div class="content-text">
-
-
-						            <ul>
-						              <li>Country</li>
-						              <li>Sweden</li>
-						            </ul>
-
-						            <ul>
-						              <li>City</li>
-						              <li>Linköping</li>
-						            </ul>
+						<!-- LOCATION -->
+								<section class="content top-content">
+									<div class="row">
+										<div class="content-cat">
+										 <h3>Location</h3>
+										</div>
+										<div class="content-text">
 
 
-					          </div>
-					        </div>
-					      </section>
+												<ul>
+													<li>Country</li>
+													<li>Sweden</li>
+												</ul>
+
+												<ul>
+													<li>City</li>
+													<li>Linköping</li>
+												</ul>
+
+
+										</div>
+									</div>
+								</section>
 
 
 						<!-- LANGUAGE -->
-			      <section class="content">
-			        <div class="row">
-			          <div class="content-cat">
-			           <h3>Languages</h3>
-			          </div>
-			          <div class="content-text">
+						<section class="content top-content">
+							<div class="row">
+								<div class="content-cat">
+								 <h3>Languages</h3>
+								</div>
+								<div class="content-text">
 
-				            <ul>
+										<ul>
 
-				              	<li>English</li>
+												<li>English</li>
 
-				              <li>Fluent</li>
+											<li>Fluent</li>
 
-				            </ul>
-				            <ul>
+										</ul>
+										<ul>
 
-				              	<li>Swedish</li>
+												<li>Swedish</li>
 
-				              <li>Native speaker</li>
+											<li>Native speaker</li>
 
-				            </ul>
+										</ul>
 
-			          </div>
-			        </div>
-			      </section>
+								</div>
+							</div>
+						</section>
 
-			      <!-- PROFILES for website-->
-				      <section class="content profiles">
-				        <div class="row">
-				          <div class="content-cat">
-				           <h3>Profiles</h3>
-				          </div>
-				          <div class="content-text profiles-listing">
-				            <ul>
-					              	<li>
-					              	<a href="https://github.com/lindell" target="_blank">
+						<!-- PROFILES for website-->
+							<section class="content profiles top-content">
+								<div class="row">
+									<div class="content-cat">
+									 <h3>Profiles</h3>
+									</div>
+									<div class="content-text profiles-listing">
+										<ul>
+													<li>
+													<a href="https://github.com/lindell" target="_blank">
 														<i class="fa fa-2x fa-github-square"></i>
-							            	<span class="network">Github</span>
+														<span class="network">Github</span>
 													</a>
-							            </li>
-					              	<li>
-					              	<a href="http://bit.ly/2fmpoA8" target="_blank">
+													</li>
+													<li>
+													<a href="http://bit.ly/2fmpoA8" target="_blank">
 														<i class="fa fa-2x fa-linkedin-square"></i>
-							            	<span class="network">LinkedIn</span>
+														<span class="network">LinkedIn</span>
 													</a>
-							            </li>
-				            </ul>
-				          </div>
-				        </div>
-				      </section>
+													</li>
+										</ul>
+									</div>
+								</div>
+							</section>
 						<!-- PROFILES for print -->
 							<section class="content profiles-print">
 								<div class="row">
@@ -744,63 +758,63 @@ div.content-text.skills-listing > ul > li:first-child {
 
 
 								<section class="content">
-				        <div class="row">
-				          <div class="content-cat big-text">
+								<div class="row">
+									<div class="content-cat big-text">
 
-				            	<h3>Education</h3>
+											<h3>Education</h3>
 
-				            		<p>2014-08-15 till <span class="no-nl">2016-12-31</span></p>
+												<p>2014-08-15 till <span class="no-nl">2016-12-31</span></p>
 
-				          </div>
-				          <div class="content-text work-listing education-listing">
-						            <p class="heading first-listing">Linköping University</p>
+									</div>
+									<div class="content-text work-listing education-listing">
+												<p class="heading first-listing">Linköping University</p>
 
-			            		<p class="highlight">
+											<p class="highlight">
 												Master:
-			            		<i>Programming and Algorithms</i>
-			            		</p>
+											<i>Programming and Algorithms</i>
+											</p>
 
-				          </div>
-				        </div>
-				      </section>
+									</div>
+								</div>
+							</section>
 								<section class="content education-content">
-				        <div class="row">
-				          <div class="content-cat big-text">
+								<div class="row">
+									<div class="content-cat big-text">
 
 
-				            		<p>2011-08-15 till <span class="no-nl">2014-06-15</span></p>
+												<p>2011-08-15 till <span class="no-nl">2014-06-15</span></p>
 
-				          </div>
-				          <div class="content-text work-listing education-listing">
-						            <p class="heading">Linköping University</p>
+									</div>
+									<div class="content-text work-listing education-listing">
+												<p class="heading">Linköping University</p>
 
-			            		<p class="highlight">
+											<p class="highlight">
 												Bachelor:
-			            		<i>Computer Science</i>
-			            		</p>
+											<i>Computer Science</i>
+											</p>
 
-				          </div>
-				        </div>
-				      </section>
+									</div>
+								</div>
+							</section>
 								<section class="content education-content">
-				        <div class="row">
-				          <div class="content-cat big-text">
+								<div class="row">
+									<div class="content-cat big-text">
 
 
-				            		<p>2008-07-01 till <span class="no-nl">2011-05-30</span></p>
+												<p>2008-07-01 till <span class="no-nl">2011-05-30</span></p>
 
-				          </div>
-				          <div class="content-text work-listing education-listing">
-						            <p class="heading">Tullängsskolan</p>
+									</div>
+									<div class="content-text work-listing education-listing">
+												<p class="heading">Tullängsskolan</p>
 
-			            		<p class="highlight">
+											<p class="highlight">
 												High School:
-			            		<i>Computer Science and Science</i>
-			            		</p>
+											<i>Computer Science and Science</i>
+											</p>
 
-				          </div>
-				        </div>
-				      </section>
+									</div>
+								</div>
+							</section>
 
 
 
@@ -827,61 +841,61 @@ div.content-text.skills-listing > ul > li:first-child {
 
 
 								<section class="content">
-			        <div class="row small-fullwidth-row">
-			          <div class="content-cat big-text">
+							<div class="row small-fullwidth-row">
+								<div class="content-cat big-text">
 											<h3>Volunteer work</h3>
 
-			            		<p><span class="no-nl">2015-02-01</span> till <span class="no-nl">2016-04-01</span></p>
+											<p><span class="no-nl">2015-02-01</span> till <span class="no-nl">2016-04-01</span></p>
 
-			          </div>
-			          <div class="content-text work-listing education-listing">
-					            <p class="first-listing small-center">
+								</div>
+								<div class="content-text work-listing education-listing">
+											<p class="first-listing small-center">
 													<strong>Bartending and Kitchen Work</strong> <span class="no-nl">at <strong><a href="https://www.villevallapub.se/">VilleValla Pub</a></strong></span>
-					            </p>
+											</p>
 
 											<p>VilleValla is a student pub open for students at Linköping University. At VilleValla I worked in the bar as well as managing the kitchen. The most valuable lesson I learned while working at VilleValla was how to continue being engaged with the customers while still being under stress.</p>
 
 
 
-			          </div>
-			        </div>
-			      </section>
+								</div>
+							</div>
+						</section>
 
 
-			      <section class="content">
-			        <div class="row">
-			          <div class="content-cat">
-			            <h3>Skills</h3>
-			          </div>
-			          <div class="content-text skills-listing">
-			            	<p>
-			            	<span class="name">
+						<section class="content">
+							<div class="row">
+								<div class="content-cat">
+									<h3>Skills</h3>
+								</div>
+								<div class="content-text skills-listing">
+										<p>
+										<span class="name">
 											<strong>
 											Web Development:
 
 											</strong>
-			            	</span>
+										</span>
 
 
 												HTML, CSS, Javascript, and a lot of libraries...
-			            	</p>
-			            	<p>
-			            	<span class="name">
+										</p>
+										<p>
+										<span class="name">
 											<strong>
 											Programing languages:
 
 											</strong>
-			            	</span>
+										</span>
 
 
 												Java, C#, Javascript (ECMAScript), SQL, Python, PHP, C/C++, LISP, and more...
-			            	</p>
-			          </div>
-			        </div>
-			      </section>
+										</p>
+								</div>
+							</div>
+						</section>
 
-		  	</div>
-		  </article>
+				</div>
+			</article>
 		</div>
 	</body>
 </html>
