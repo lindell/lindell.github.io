@@ -6,7 +6,7 @@
     "website": "http://lindell.me",
     "phone": "(+46) 073-988 03 28",
     "label": "Developer",
-    "summary": "I'm a developer who has loved creating things digitally since the day I realized I could make my own website at the age of 12. Ever since then I've been into development. The first years I did exclusively web development, but my interests and knowledge has expanded since then. I'm now 23 years old, less than a year from my master's degree in computer science and the love for development is still there.",
+    "summary": "I'm a developer who has loved creating things digitally since the day I realized I could make my own website at a young age. Ever since then I've been into development. The first years, I did exclusively web development, but my interests and knowledge has expanded since then. Today, I've been doing development for over a decade and I'm still in love with it. I have a master in Computer Sience and is currently working as an IT consultant at Netlight.",
     "location": {
       "city": "Linköping",
       "countryCode": "SE"
@@ -26,12 +26,36 @@
   },
   "work": [
     {
+      "company": "Netlight",
+      "position": "IT consultant",
+      "website": "https://www.netlight.com/",
+      "startDate": "2017-02-20",
+      "summary": "Netlight is an IT consultant firm located in multiple european countries. I'm currently working at the Stockholm office where I've been on several assignments listed below.",
+      "assignments": [
+        {
+          "company": "Lendo",
+          "position": "Backend developer",
+          "website": "https://www.lendo.se/",
+          "startDate": "2017-06-14",
+          "summary": "This assignment involved assisting Lendo with their move from a PHP monolith to a microservice architecture. The first period involved both creating a new microservice and restruction of Lendos template for Node.js services. Thereafter, the majority of the development was performed in Go with both the recreation of new microservices and refactoring of old."
+        },
+        {
+          "company": "Improove",
+          "position": "Web developer",
+          "website": "http://www.improove.se/",
+          "startDate": "2017-03-01",
+          "endDate": "2017-06-29",
+          "summary": "The assignment at Improove involved both front- and backend development. This included improvements of existing webshops, the implementation of a redesign (shop.picadeli.se), and the creation of a new one (savannahs.com). The backend of the webshops were powered by Magento and Demandware."
+        }
+      ]
+    },
+    {
       "company": "Linköping University",
       "position": "System administrator",
       "website": "https://www.liu.se/?l=en",
       "startDate": "2013-08-01",
       "endDate": "2016-06-30",
-      "summary": "As a system administrator at Linköping University I, and one other student, was in charge of two computer labs with approximately 100 computers. The work involved configuration and maintenance of these computers. All computers where running Windows that was managed via an Active Directory server. We did also maintain a Linux server with web and email services."
+      "summary": "When working as a system administrator at Linköping University, I and one other student, was in charge of two computer labs with approximately 100 computers. The work involved configuration and maintenance of these computers. All computers where running Windows that was managed via an Active Directory server. We did also maintain a Linux server with web and email services."
     },
     {
       "company": "OnServer360",
@@ -63,7 +87,7 @@
       "role": "Creator and main contributor",
       "startDate": "2014-06-01",
       "website": "https://github.com/lindell/JsBarcode",
-      "summary": "JsBarcode is a barcode generation library written in JavaScript. I'm the creator and main developer of the project. It is currently the most popular barcode generation library (all languages) on GitHub and is used by everything from Turkish bookshops to the Swedish postal service (PostNord)."
+      "summary": "JsBarcode is a barcode generation library written in JavaScript. I'm the creator and main developer of the project. It is currently the most popular barcode generation library (all languages) on GitHub and is used by everything from Turkish bookshops to the Swedish postal service (PostNord). It has currently multi-million end users world wide each month."
     }
   ],
   "education": [
@@ -99,18 +123,21 @@
         "HTML",
         "CSS",
         "Javascript",
-        "and a lot of libraries..."
+        "React",
+        "Angular",
+        "and more..."
       ]
     },
     {
       "name": "Programing languages",
       "keywords": [
-        "Java",
-        "C#",
         "Javascript (ECMAScript)",
         "SQL",
         "Python",
+        "GO",
         "PHP",
+        "Java",
+        "C#",
         "C/C++",
         "LISP",
         "and more..."

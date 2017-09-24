@@ -5,8 +5,8 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 
 		<title>Johan Lindell's Resume</title>
-		<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -270,6 +270,10 @@ div.content-text.work-listing.education-listing > p:nth-child(2) {
   border-left:1px solid #dddddd;
 }
 
+.assignment {
+  border-left: 1px solid #dddddd;
+}
+
 .education-listing > .heading {
   font-weight:600;
 
@@ -309,6 +313,10 @@ div.content-text.skills-listing > p {
 
 .no-nl{
   display: inline-block;
+}
+
+.margin-left {
+  margin-left: 10px;
 }
 
 a{
@@ -470,6 +478,8 @@ header p {
 
 .content-cat {
   width:25%;
+  position: relative;
+  right: 4%;
   color:black;
 }
 
@@ -685,7 +695,7 @@ div.content-text.skills-listing > ul > li:first-child {
 									</div>
 									<div class="content-text work-content">
 										<p>
-											I&#x27;m a developer who has loved creating things digitally since the day I realized I could make my own website at the age of 12. Ever since then I&#x27;ve been into development. The first years I did exclusively web development, but my interests and knowledge has expanded since then. I&#x27;m now 23 years old, less than a year from my master&#x27;s degree in computer science and the love for development is still there.
+											I&#x27;m a developer who has loved creating things digitally since the day I realized I could make my own website at a young age. Ever since then I&#x27;ve been into development. The first years, I did exclusively web development, but my interests and knowledge has expanded since then. Today, I&#x27;ve been doing development for over a decade and I&#x27;m still in love with it. I have a master in Computer Sience and is currently working as an IT consultant at Netlight.
 										</p>
 									</div>
 								</div>
@@ -696,16 +706,49 @@ div.content-text.skills-listing > ul > li:first-child {
 								<div class="content-cat big-text">
 											<h3>Work	Experience</h3>
 
-											<p><span class="no-nl">2013-08-01</span> till <span class="no-nl">2016-06-30</span></p>
+											<p><span class="no-nl">2017-02-20</span> till <span class="no-nl">Ongoing</span></p>
 
 								</div>
 								<div class="content-text work-listing education-listing">
 											<p class="small-center first-listing">
+													<strong>IT consultant</strong> at <strong><a href="https://www.netlight.com/" class="no-nl">Netlight</a></strong>
+											</p>
+
+											<p>Netlight is an IT consultant firm located in multiple european countries. I&#x27;m currently working at the Stockholm office where I&#x27;ve been on several assignments listed below.</p>
+
+
+												<section class="assignment">
+														<p class="small-center first-listing">
+																<strong>Backend developer</strong> at <strong><a href="https://www.lendo.se/" class="no-nl">Lendo</a></strong>
+														</p>
+
+														<p>This assignment involved assisting Lendo with their move from a PHP monolith to a microservice architecture. The first period involved both creating a new microservice and restruction of Lendos template for Node.js services. Thereafter, the majority of the development was performed in Go with both the recreation of new microservices and refactoring of old.</p>
+
+												</section>
+												<section class="assignment">
+														<p class="small-center">
+																<strong>Web developer</strong> at <strong><a href="http://www.improove.se/" class="no-nl">Improove</a></strong>
+														</p>
+
+														<p>The assignment at Improove involved both front- and backend development. This included improvements of existing webshops, the implementation of a redesign (shop.picadeli.se), and the creation of a new one (savannahs.com). The backend of the webshops were powered by Magento and Demandware.</p>
+
+												</section>
+								</div>
+							</div>
+						</section>
+								<section class="content work-content">
+							<div class="row small-fullwidth-row">
+								<div class="content-cat big-text">
+
+											<p><span class="no-nl">2013-08-01</span> till <span class="no-nl">2016-06-30</span></p>
+
+								</div>
+								<div class="content-text work-listing education-listing">
+											<p class="small-center">
 													<strong>System administrator</strong> at <strong><a href="https://www.liu.se/?l&#x3D;en" class="no-nl">Linköping University</a></strong>
 											</p>
 
-											<p>As a system administrator at Linköping University I, and one other student, was in charge of two computer labs with approximately 100 computers. The work involved configuration and maintenance of these computers. All computers where running Windows that was managed via an Active Directory server. We did also maintain a Linux server with web and email services.</p>
-
+											<p>When working as a system administrator at Linköping University, I and one other student, was in charge of two computer labs with approximately 100 computers. The work involved configuration and maintenance of these computers. All computers where running Windows that was managed via an Active Directory server. We did also maintain a Linux server with web and email services.</p>
 
 
 								</div>
@@ -726,7 +769,6 @@ div.content-text.skills-listing > ul > li:first-child {
 											<p>This job was over the summer of 2012 where I created a platform for tracking customers through webshops and other websites. The platform also made it possible for the user to specify rules that sent emails to the customers based on configurable criterias.</p>
 
 
-
 								</div>
 							</div>
 						</section>
@@ -745,7 +787,6 @@ div.content-text.skills-listing > ul > li:first-child {
 											<p>I created and taught a programming course for children with another person at KomTek (munipical technical school). The course was organized so that the children received a basic understanding of programming while still having fun in the process. It was fun and instructive to see the children&#x27;s expression of epiphany when they figured out new things. The same epiphany I experienced when I started programming.</p>
 
 
-
 								</div>
 							</div>
 						</section>
@@ -757,7 +798,7 @@ div.content-text.skills-listing > ul > li:first-child {
 
 											<h3>Education</h3>
 
-												<p>2014-08-15 till <span class="no-nl">2016-12-31</span></p>
+												<p><span class="no-nl">2014-08-15</span> till <span class="no-nl">2016-12-31</span></p>
 
 									</div>
 									<div class="content-text work-listing education-listing">
@@ -776,7 +817,7 @@ div.content-text.skills-listing > ul > li:first-child {
 									<div class="content-cat big-text">
 
 
-												<p>2011-08-15 till <span class="no-nl">2014-06-15</span></p>
+												<p><span class="no-nl">2011-08-15</span> till <span class="no-nl">2014-06-15</span></p>
 
 									</div>
 									<div class="content-text work-listing education-listing">
@@ -795,7 +836,7 @@ div.content-text.skills-listing > ul > li:first-child {
 									<div class="content-cat big-text">
 
 
-												<p>2008-07-01 till <span class="no-nl">2011-05-30</span></p>
+												<p><span class="no-nl">2008-07-01</span> till <span class="no-nl">2011-05-30</span></p>
 
 									</div>
 									<div class="content-text work-listing education-listing">
@@ -825,7 +866,7 @@ div.content-text.skills-listing > ul > li:first-child {
 												<strong>Creator and main contributor</strong> <span class="no-nl">of <strong><a href="https://github.com/lindell/JsBarcode">JsBarcode</a></strong></span>
 											</p>
 
-											<p>JsBarcode is a barcode generation library written in JavaScript. I&#x27;m the creator and main developer of the project. It is currently the most popular barcode generation library (all languages) on GitHub and is used by everything from Turkish bookshops to the Swedish postal service (PostNord).</p>
+											<p>JsBarcode is a barcode generation library written in JavaScript. I&#x27;m the creator and main developer of the project. It is currently the most popular barcode generation library (all languages) on GitHub and is used by everything from Turkish bookshops to the Swedish postal service (PostNord). It has currently multi-million end users world wide each month.</p>
 
 
 
@@ -871,7 +912,7 @@ div.content-text.skills-listing > ul > li:first-child {
 										</span>
 
 
-												HTML, CSS, Javascript, and a lot of libraries...
+												HTML, CSS, Javascript, React, Angular, and more...
 										</p>
 										<p>
 										<span class="name">
@@ -882,7 +923,7 @@ div.content-text.skills-listing > ul > li:first-child {
 										</span>
 
 
-												Java, C#, Javascript (ECMAScript), SQL, Python, PHP, C/C++, LISP, and more...
+												Javascript (ECMAScript), SQL, Python, GO, PHP, Java, C#, C/C++, LISP, and more...
 										</p>
 								</div>
 							</div>
