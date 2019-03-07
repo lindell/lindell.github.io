@@ -1,0 +1,15 @@
+language: node_js
+sudo: required
+install:
+- npm install
+node_js:
+- '10'
+jobs:
+  include:
+  - stage: npm release
+    node_js: '10'
+    script: npm run deploy
+env:
+  global:
+  - secure: IdfqCAuibZCt2SNIc0IpBP97srTjJZUOQjkJTOnz70pSNVFUGXPCFhJt0yceF9BZPwz/hzHVTHLjG4wYiKCk+w/kUJ9GzlWm4et3cFu4YR/wp8SiRsZ72EIadiKcrjmg5QJwtZ8qwoVFvRhxXVU2x3bnRx6Zajrj84B5FK6uIgg=
+  - secure: DA3QFNWZby6ffvtdozB+Xlxvp/AGKmYmBP8Nw9ah+1MWqQj7JtdiFlkB/DWyuma1DTKDMSMkmltinSI9uM0Q5uIAraReMn8GJ0ex+9+2lJ1X5RxjkwBw3yqVWw/bamx5K1WjjmlgTi3DAkBc9XQNfYP6q3pekW17zJJx/2/DArU=

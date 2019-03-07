@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "node ./build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "jsonresume-theme-paper-plus-plus": "^0.4.2"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.416.0"
   }
 }

@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Johan Lindell",
-    "picture": "./images/me.jpg",
+    "picture": "./static/me.jpg",
     "email": "johan@lindell.me",
     "website": "http://lindell.me",
     "phone": "(+46) 073-988 03 28",
