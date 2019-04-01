@@ -5,12 +5,6 @@ const resume = require('../resume/resume.json');
 const resumeGenerator = require('jsonresume-theme-paper-plus-plus');
 
 async function upload() {
-    console.log({
-        accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
-    });
-    
-
     const s3 = new S3({
         apiVersion: '2006-03-01',
         region: 'eu-west-1',
@@ -21,8 +15,8 @@ async function upload() {
     });
 
     console.log("Generating resume");
-    var html = resumeGenerator.render(resume);
-    var base64data = Buffer.from(html);
+    const html = resumeGenerator.render(resume);
+    const base64data = Buffer.from(html);
 
     console.log("Uploading resume");
     await s3.putObject({
@@ -59,4 +53,7 @@ async function uploadDir(s3, dirPath, s3Path) {
 }
 
 
-upload().catch(err => console.log(err))
+upload().catch(err => {
+    console.log(err);
+    process.exit(1);
+});
