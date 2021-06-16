@@ -18,6 +18,6 @@
   "homepage": "https://github.com/lindell/lindell.github.io#readme",
   "dependencies": {
     "html-minifier": "^4.0.0",
-    "jsonresume-theme-paper-plus-plus": "^0.4.2"
+    "jsonresume-theme-paper-plus-plus": "^0.5.1"
   }
 }
