@@ -6,30 +6,46 @@
     "website": "http://lindell.me",
     "phone": "(+46) 073-988 03 28",
     "label": "Developer",
-    "summary": "I'm a developer who has loved creating things digitally since the day I realized I could make my own website at a young age. Ever since then I've been into development. The first years, I did exclusively web development, but my interests and knowledge have expanded since then. Today, I've been doing development for over a decade and I'm still in love with it. I have a master in Computer Science and is currently working as an IT consultant at Netlight.",
+    "summary": "I'm a developer that thrives by creating digital products. Today, I've been doing development for over 15 years and I'm still in love with it. I have a master's in Computer Science and am currently working as a technical lead at Lendo, where I'm a part of leading our expansion into the world.",
     "location": {
       "city": "Stockholm",
       "countryCode": "SE"
     },
     "profiles": [
       {
-        "network": "Github",
+        "network": "GitHub",
         "username": "lindell",
         "url": "https://github.com/lindell"
       },
       {
         "network": "LinkedIn",
         "username": "Johan Lindell",
-        "url": "http://bit.ly/2fmpoA8"
+        "url": "https://www.linkedin.com/in/johan-lindell/"
       }
     ]
   },
   "work": [
     {
+      "company": "Lendo",
+      "position": "Technical lead",
+      "website": "https://www.lendo.se/",
+      "startDate": "2019-05-01",
+      "summary": "As a technical lead at Lendo, the main focus has been to, together with my team, develop and launch Lendo into new markets. This, while simultaneously building a platform that both existing and future markets can use for rapid development, while still being configurable for market needs. My purpose has been to guide my team toward these goals, and at the end of 2020, we successfully launched Lendo into a new market, Spain. Since then, we have continued to make it even better, while also making great progress in the development of more markets."
+    },
+    {
+      "company": "Lendo",
+      "position": "Developer",
+      "website": "https://www.lendo.se/",
+      "startDate": "2018-11-15",
+      "endDate": "2019-04-30",
+      "summary": "My time as a developer at Lendo was focused on improving the newly launched platform. This included both developing new features and making sure that the existing features could be reused for new markets in the upcoming expansion."
+    },
+    {
       "company": "Netlight",
       "position": "IT consultant",
       "website": "https://www.netlight.com/",
       "startDate": "2017-02-20",
+      "endDate": "2018-11-15",
       "summary": "Netlight is an IT consultant firm located in multiple european countries. I'm currently working at the Stockholm office where I've been on several assignments listed below.",
       "assignments": [
         {
@@ -37,7 +53,8 @@
           "position": "Backend developer",
           "website": "https://www.lendo.se/",
           "startDate": "2017-06-14",
-          "summary": "This assignment involved assisting Lendo with their move from a PHP monolith to a microservice architecture. The first period involved both creating a new microservice and restructuring of Lendos template for Node.js services. Thereafter, the majority of the development was performed in Go with both the recreation of new microservices and refactoring of old."
+          "endDate": "2018-11-15",
+          "summary": "This assignment involved assisting Lendo with their move from a PHP monolith to a microservice architecture. The first period involved both creating a new microservice and restructuring of Lendo's template for Node.js services. Thereafter, the majority of the development was performed in Go with both the recreation of new microservices and refactoring of old ones. A major part of the assignment was to help out with the development of Lendo's new business loan product. I became the unofficial technical lead within the sub-team developing this new product and together with the rest of the team, we successfully launched it in 2018. It is today an essential part of Lendo's offering."
         },
         {
           "company": "Improove",
@@ -45,7 +62,7 @@
           "website": "http://www.improove.se/",
           "startDate": "2017-03-01",
           "endDate": "2017-06-29",
-          "summary": "The assignment at Improove involved both front- and backend development. This included improvements of existing webshops, the implementation of a redesign (shop.picadeli.se), and the creation of a new one (savannahs.com). The backend of the webshops was powered by Magento and Demandware."
+          "summary": "The assignment at Improove involved both front- and backend development. This included improvements of existing webshops, but also the implementation of a redesign (shop.picadeli.se), and the creation and launching of a new webshop (savannahs.com). The backend of the webshops was powered by Magento and Demandware."
         }
       ]
     },
@@ -98,24 +115,16 @@
       "startDate": "2011-08-15",
       "endDate": "2014-06-15",
       "courses": []
-    },
-    {
-      "institution": "Tullängsskolan",
-      "area": "Computer Science and Science",
-      "studyType": "High School",
-      "startDate": "2008-07-01",
-      "endDate": "2011-05-30",
-      "courses": []
     }
   ],
   "skills": [
     {
       "name": "Web Development",
       "keywords": [
-        "HTML",
-        "CSS",
         "Javascript",
         "React",
+        "HTML",
+        "CSS",
         "Angular",
         "and more..."
       ]
@@ -123,15 +132,13 @@
     {
       "name": "Programing languages",
       "keywords": [
+        "Go",
         "Javascript (ECMAScript)",
-        "SQL",
         "Python",
-        "GO",
-        "PHP",
         "Java",
+        "PHP",
         "C#",
         "C/C++",
-        "LISP",
         "and more..."
       ]
     }

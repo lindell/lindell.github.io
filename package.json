@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/lindell/lindell.github.io#readme",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "html-minifier": "^4.0.0",
     "jsonresume-theme-paper-plus-plus": "^0.4.2"
   }
 }
