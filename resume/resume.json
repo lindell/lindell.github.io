@@ -26,10 +26,18 @@
   },
   "work": [
     {
+      "company": "Google",
+      "position": "Software engineer",
+      "website": "https://google.com/",
+      "startDate": "2022-01-24",
+      "summary": "At Google, I'm focusing on increasing users' confidence in video conferencing, by guiding them to a better setup and directing them to find issues in their setup."
+    },
+    {
       "company": "Lendo",
       "position": "Technical lead",
       "website": "https://www.lendo.se/",
       "startDate": "2019-05-01",
+      "endDate": "2022-01-23",
       "summary": "As a technical lead at Lendo, the main focus has been to, together with my team, develop and launch Lendo into new markets. This, while simultaneously building a platform that both existing and future markets can use for rapid development, while still being configurable for market needs. My purpose has been to guide my team toward these goals, and at the end of 2020, we successfully launched Lendo into a new market, Spain. Since then, we have continued to make it even better, while also making great progress in the development of more markets."
     },
     {
@@ -133,7 +141,7 @@
       "name": "Programing languages",
       "keywords": [
         "Go",
-        "Javascript (ECMAScript)",
+        "Javascript/Typescript",
         "Python",
         "Java",
         "PHP",
