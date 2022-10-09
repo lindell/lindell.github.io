@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "node ./build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/lindell/lindell.github.io#readme",
   "dependencies": {
+    "fs-extra": "^10.1.0",
     "html-minifier": "^4.0.0",
     "jsonresume-theme-paper-plus-plus": "^0.5.1"
   }
