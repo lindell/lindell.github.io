@@ -18,4 +18,4 @@ fse.removeSync(buildDir);
 fs.mkdirSync(buildDir);
 
 fs.writeFileSync(path.join(buildDir, "index.html"), minified);
-fse.copySync("images", path.join(buildDir, "images"));
+fse.copySync("static", buildDir);
