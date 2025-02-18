@@ -5,8 +5,8 @@
     "email": "johan@lindell.me",
     "website": "http://lindell.me",
     "phone": "(+46) 073-988 03 28",
-    "label": "Developer",
-    "summary": "I'm a developer that thrives by creating digital products. Today, I've been doing development for over 15 years and I'm still in love with it. I have a master's in Computer Science and am currently working as a software engineer at Google, where I'm helping users feel confidence in their video conferencing.",
+    "label": "Software Engineer",
+    "summary": "Experienced software engineer with over 15 years of expertise in developing digital products. Passionate about creating seamless user experiences and optimizing technological solutions. Holding a Master's degree in Computer Science. I am currently contributing at Google, enhancing user confidence in video conferencing through improved setups and troubleshooting guidance.",
     "location": {
       "city": "Stockholm",
       "countryCode": "SE"
@@ -27,34 +27,34 @@
   "work": [
     {
       "company": "Google",
-      "position": "Software engineer",
+      "position": "Software Engineer",
       "website": "https://google.com/",
       "startDate": "2022-01-24",
-      "summary": "At Google, I'm focusing on increasing users' confidence in video conferencing, by guiding them to a better setup and directing them to find issues in their setup."
+      "summary": "Contributed to innovation in video conferencing by enhancing user confidence through guided setups and troubleshooting tools. Later focused on improving media delivery using WebRTC and other technologies."
     },
     {
       "company": "Lendo",
-      "position": "Technical lead",
+      "position": "Technical Lead",
       "website": "https://www.lendo.se/",
       "startDate": "2019-05-01",
       "endDate": "2022-01-23",
-      "summary": "As a technical lead at Lendo, the main focus has been to, together with my team, develop and launch Lendo into new markets. This, while simultaneously building a platform that both existing and future markets can use for rapid development, while still being configurable for market needs. My purpose has been to guide my team toward these goals, and at the end of 2020, we successfully launched Lendo into a new market, Spain. Since then, we have continued to make it even better, while also making great progress in the development of more markets."
+      "summary": "Led a team in expanding Lendo into new markets while developing a scalable, configurable platform to support future expansions. Successfully launched Lendo in Spain in 2020 and continued optimizing platform performance and adaptability for further market entries."
     },
     {
       "company": "Lendo",
-      "position": "Developer",
+      "position": "Software Developer",
       "website": "https://www.lendo.se/",
       "startDate": "2018-11-15",
       "endDate": "2019-04-30",
-      "summary": "My time as a developer at Lendo was focused on improving the newly launched platform. This included both developing new features and making sure that the existing features could be reused for new markets in the upcoming expansion."
+      "summary": "Enhanced the newly launched platform by developing new features and ensuring modularity for future market expansions."
     },
     {
       "company": "Netlight",
-      "position": "IT consultant",
+      "position": "IT Consultant",
       "website": "https://www.netlight.com/",
       "startDate": "2017-02-20",
       "endDate": "2018-11-15",
-      "summary": "Netlight is an IT consultant firm located in multiple european countries. I'm currently working at the Stockholm office where I've been on several assignments listed below.",
+      "summary": "Provided IT consultancy services, leading key development initiatives for various clients.",
       "assignments": [
         {
           "company": "Lendo",
@@ -62,7 +62,7 @@
           "website": "https://www.lendo.se/",
           "startDate": "2017-06-14",
           "endDate": "2018-11-15",
-          "summary": "This assignment involved assisting Lendo with their move from a PHP monolith to a microservice architecture. The first period involved both creating a new microservice and restructuring of Lendo's template for Node.js services. Thereafter, the majority of the development was performed in Go with both the recreation of new microservices and refactoring of old ones. A major part of the assignment was to help out with the development of Lendo's new business loan product. I became the unofficial technical lead within the sub-team developing this new product and together with the rest of the team, we successfully launched it in 2018. It is today an essential part of Lendo's offering."
+          "summary": "Played a key role in launching a new platform by developing features and ensuring modularity through a microservice-architecture to support future market expansions. Served as the primary consultant for Lendo's new business loan product, leading its development alongside the new platform."
         },
         {
           "company": "Improove",
@@ -70,41 +70,33 @@
           "website": "http://www.improove.se/",
           "startDate": "2017-03-01",
           "endDate": "2017-06-29",
-          "summary": "The assignment at Improove involved both front- and backend development. This included improvements of existing webshops, but also the implementation of a redesign (shop.picadeli.se), and the creation and launching of a new webshop (savannahs.com). The backend of the webshops was powered by Magento and Demandware."
+          "summary": "Worked on both front-end and back-end development, improving existing webshops and creating new ones. Led the implementation of a full redesign for Sweden’s leading salad bar company (shop.picadeli.se) and spearheaded the launch of a new webshop for the luxury clothing retailer (savannahs.com)"
         }
       ]
     },
     {
       "company": "Linköping University",
-      "position": "System administrator",
+      "position": "System Administrator",
       "website": "https://www.liu.se/?l=en",
       "startDate": "2013-08-01",
       "endDate": "2016-06-30",
-      "summary": "When working as a system administrator at Linköping University, I and one other student, was in charge of two computer labs with approximately 100 computers. The work involved configuration and maintenance of these computers. All computers were running Windows that was managed via an Active Directory server. We did also maintain a Linux server with web and email services."
-    },
-    {
-      "company": "OnServer360",
-      "position": "Developer",
-      "startDate": "2012-04-01",
-      "endDate": "2012-07-01",
-      "summary": "This job was over the summer of 2012 where I created a platform for tracking customers through webshops and other websites. The platform also made it possible for the user to specify rules that sent emails to the customers based on configurable criteria."
-    },
-    {
-      "company": "KomTek",
-      "position": "Teacher",
-      "website": "http://www.orebro.se/4645.html",
-      "startDate": "2010-01-01",
-      "endDate": "2010-06-01",
-      "summary": "I created and taught a programming course for children with another person at KomTek (municipal technical school). The course was organized so that the children received a basic understanding of programming while still having fun in the process. It was fun and instructive to see the children's expression of epiphany when they figured out new things. The same epiphany I experienced when I started programming."
+      "summary": "Managed and maintained computer labs with approximately 100 workstations, ensuring seamless system operation through Active Directory and Linux server administration."
     }
   ],
   "opensource": [
     {
+      "name": "multi-gitter",
+      "role": "Creator and Lead Developer",
+      "startDate": "2020-06-23",
+      "website": "https://github.com/lindell/JsBarcode",
+      "summary": "Developed multi-gitter, a powerful open-source tool for making simultaneous changes across multiple repositories, automating pull requests, and streamlining bulk updates for developers worldwide. Confirmed to be used by multiple Fortune 500 companies and even used by GitHub themselves."
+    },
+    {
       "name": "JsBarcode",
-      "role": "Creator and main contributor",
+      "role": "Creator and Lead Developer",
       "startDate": "2014-06-01",
       "website": "https://github.com/lindell/JsBarcode",
-      "summary": "JsBarcode is a barcode generation library written in JavaScript. I'm the creator and main developer of the project. It is currently the most popular barcode generation library (all languages) on GitHub and is used by everything from Turkish bookshops to the Swedish postal service (PostNord). It has currently multi-million end users world wide each month."
+      "summary": "Developed JsBarcode, the most widely used barcode generation library on GitHub, serving millions of users globally."
     }
   ],
   "education": [
@@ -113,41 +105,37 @@
       "area": "Programming and Algorithms",
       "studyType": "Master",
       "startDate": "2014-08-15",
-      "endDate": "2016-12-31",
-      "courses": []
+      "endDate": "2016-12-31"
     },
     {
       "institution": "Linköping University",
       "area": "Computer Science",
       "studyType": "Bachelor",
       "startDate": "2011-08-15",
-      "endDate": "2014-06-15",
-      "courses": []
+      "endDate": "2014-06-15"
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "keywords": [
-        "Javascript",
-        "React",
-        "HTML",
-        "CSS",
-        "Angular",
-        "and more..."
-      ]
-    },
-    {
-      "name": "Programing languages",
+      "name": "Programming Languages",
       "keywords": [
         "Go",
-        "Javascript/Typescript",
+        "JavaScript/TypeScript",
         "Python",
         "Java",
         "PHP",
         "C#",
-        "C/C++",
-        "and more..."
+        "C/C++"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+        "JavaScript",
+        "React",
+        "HTML",
+        "CSS",
+        "Angular"
       ]
     }
   ],
@@ -158,7 +146,7 @@
     },
     {
       "language": "Swedish",
-      "fluency": "Native speaker"
+      "fluency": "Native Speaker"
     }
   ]
 }
